@@ -19,7 +19,7 @@ FROM "content"
 ## Query
 
 ```query
-
+-tag:privat
 ```
 
 ## Verlinkung
