@@ -1,6 +1,17 @@
 ---
-title: Welcome to Quartz
+aliases: start
+tags: 
+  - index
+  - start
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+```dataview
+TABLE without ID
+file.link,
+tags,
+cdate
+FROM "content"
+```
+
+
+[[BBZ]]
