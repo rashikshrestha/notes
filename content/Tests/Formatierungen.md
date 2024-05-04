@@ -6,6 +6,11 @@ tags:
 
 ---
 
+## Bilder integrieren
+
+![[Sommer.png]]
+
+
 ## Code-Formatierung
 
 ```python
@@ -42,7 +47,21 @@ f(x) = \int_{-\infty}^\infty
     \,d\xi
 $$
 
+## Dataview klappt nicht
 
+```dataview
+TABLE without ID
+file.link,
+tags,
+cdate
+FROM "content"
+```
+
+## Query klappt nicht
+
+```query
+-tag:privat
+```
 
 
 [[content/index]]
