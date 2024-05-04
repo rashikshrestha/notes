@@ -16,10 +16,12 @@ cdate
 FROM "content"
 ```
 
-## Query?
+## Query
 
 ```query
-tag: 
+
 ```
+
+## Verlinkung
 
 [[BBZ]]

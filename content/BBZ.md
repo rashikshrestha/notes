@@ -8,6 +8,6 @@ tags:
 
 ## Unterrichtsmaterial
 
-[[content/index]]
+Zum [[content/index]]
 
-![[Sommer.png]]
+![[Sommer.png|200]]
