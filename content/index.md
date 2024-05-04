@@ -3,7 +3,10 @@ aliases: start
 tags: 
   - index
   - start
+  - BBZ
 ---
+
+## Dataview klappt nicht
 
 ```dataview
 TABLE without ID
@@ -13,5 +16,10 @@ cdate
 FROM "content"
 ```
 
+## Query?
+
+```query
+tag: 
+```
 
 [[BBZ]]
