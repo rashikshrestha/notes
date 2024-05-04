@@ -6,11 +6,6 @@ tags:
 
 ---
 
-## Bilder integrieren
-
-![[Sommer.png]]
-
-
 ## Code-Formatierung
 
 ```python
@@ -19,9 +14,9 @@ print("Hallo")
 
 ## Callouts
 
-> [!info] Title
+> [!info]- Ein Callout
 > 
-> This is a callout!
+> Dies ist ein Callout!
 
 ## Hightlights
 
@@ -39,29 +34,15 @@ sequenceDiagram
 
 ## Mathematik
 
-$e^{i\pi} = -1$
+Diese Formel ist inline $e^{i\pi} = -1$, wie man sieht.
+
+Die folgende Formel ist zentriert:
 
 $$
 f(x) = \int_{-\infty}^\infty
     f\hat(\xi),e^{2 \pi i \xi x}
     \,d\xi
 $$
-
-## Dataview klappt nicht
-
-```dataview
-TABLE without ID
-file.link,
-tags,
-cdate
-FROM "content"
-```
-
-## Query klappt nicht
-
-```query
--tag:privat
-```
 
 
 [[content/index]]
