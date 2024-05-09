@@ -1,6 +1,12 @@
 ---
-title: Welcome to Quartz
+aliases: start
+tags: 
+  - index
+  - start
+  - BBZ
+title: Materialien
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+## Verlinkung
+
+[[BBZ]]
