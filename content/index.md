@@ -20,4 +20,4 @@ Do., 2024-06-27, 17:54:55 Uhr: Test 3.
 
 ![[Sommer.png]]
 
-![[icon.png]]
+![[quartz/static/icon.png]]
