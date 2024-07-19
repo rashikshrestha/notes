@@ -5,8 +5,10 @@ tags:
   - start
   - BBZ
 title: Testseite
-draft: true
+draft: false
 ---
+
+
 
 ## Verlinkung
 
@@ -17,6 +19,8 @@ draft: true
 Erstellungsdatum: `$= dv.current().file.ctime`
 
 Änderungsdatum: `$= dv.current().file.mtime`
+
+Alle Dateien, die hier sichtbar sein sollen müssen `draft: false` in YAML sein!
 
 > [!NOTE]
 > 
