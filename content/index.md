@@ -12,7 +12,7 @@ draft: false
 
 ## Verlinkung
 
-%%
+
 
 `= this.file.mtime`
 
@@ -50,17 +50,17 @@ WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "
 ```query
 (Passwort OR password OR Zugangsdaten OR account OR login OR Benutzer OR Login) -file:index
 ```
-%%
+
 
 [[BBZ]]
 [[index]]
 
-%%
+
 ## Alle Dateien
 ```query
 -tag:none
 ```
-%%
+
 
 [[Formatierungen]]
 
