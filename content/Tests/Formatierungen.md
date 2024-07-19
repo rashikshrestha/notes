@@ -44,7 +44,8 @@ f(x) = \int_{-\infty}^\infty
     \,d\xi
 $$
 
-
-[[content/index]]
+[[BBZ]]
+[[index]]
+[[Formatierungen]]
 
 ![[Sommer.png]]

@@ -4,26 +4,61 @@ tags:
   - index
   - start
   - BBZ
-title: Materialien
+title: Testseite
+draft: true
 ---
 
 ## Verlinkung
 
-Do., 2024-06-27, 17:10:51 Uhr: Test 1.
+%%
 
-Do., 2024-06-27, 17:50:40 Uhr: Test 2.
+`= this.file.mtime`
 
-Do., 2024-06-27, 17:54:55 Uhr: Test 3.
+Erstellungsdatum: `$= dv.current().file.ctime`
 
-Do., 2024-06-27, 18:37:17 Uhr: Test 4.
+Änderungsdatum: `$= dv.current().file.mtime`
+
+> [!NOTE]
+> 
+> > Wichtig!
+> > Die folgenden Abfragen ==müssen== immer leer sein!
+
+<https://quartz.jzhao.xyz/plugins/RemoveDrafts>
+
+```dataview
+TABLE without ID
+file.link AS "<span style='color:red'>Unerwünschte Datei(en)"
+WHERE row["draft"] != true
+WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "Passwort") OR contains(tags, "password"))
+
+```
+
+%%group by file.folder%%
+
+```dataview
+TABLE without ID
+file.link AS "<span style='color:green'>Erwünschte Datei(en)"
+WHERE row["draft"] != false
+WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "Passwort") OR contains(tags, "password"))
+
+```
+
+```query
+(Passwort OR password OR Zugangsdaten OR account OR login OR Benutzer OR Login) -file:index
+```
+%%
 
 [[BBZ]]
+[[index]]
 
+%%
+## Alle Dateien
+```query
+-tag:none
+```
+%%
+
+[[Formatierungen]]
 
 ![[Sommer.png]]
 
-![[quartz/static/icon.png]]
-
-![[/quartz/static/icon.png]]
-
-![[icon.png]]
