@@ -9,7 +9,9 @@ draft: false
 ## Unterrichtsmaterial
 
 [[BBZ]]
+
 [[index]]
+
 [[Formatierungen]]
 
-![[Sommer.png|200]]
+![[Sommer.png]]

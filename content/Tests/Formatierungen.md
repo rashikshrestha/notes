@@ -45,7 +45,9 @@ f(x) = \int_{-\infty}^\infty
 $$
 
 [[BBZ]]
+
 [[index]]
+
 [[Formatierungen]]
 
 ![[Sommer.png]]

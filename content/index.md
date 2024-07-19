@@ -4,15 +4,20 @@ tags:
   - index
   - start
   - BBZ
-title: Testseite
+title:
 draft: false
 ---
 
 ## Dies ist die index.md
 
-> Alle Dateien, die hier sichtbar sein sollen müssen ==`draft: false`== in YAML sein!
+> Alle Dateien, die auf dieser Website *sichtbar* sein sollen müssen 
+> 
+> - die Eigenschaft `draft: false` und 
+> - dürfen nicht `draft:` (!) 
+> 
+> - im YAML front matter stehen haben!
 
-Von Hand gesetzt: 2024-07-19 12:38 Uhr
+Von Hand gesetzt: 2024-07-19 13:02 Uhr
 
 %%
 `= this.file.mtime`
