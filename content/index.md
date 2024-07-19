@@ -10,17 +10,19 @@ draft: false
 
 
 
-## Verlinkung
+## Dies ist die index.md
+
+> Alle Dateien, die hier sichtbar sein sollen müssen `draft: false` in YAML sein!
 
 2024-07-19 12:38
-
+%%
 `= this.file.mtime`
 
 Erstellungsdatum: `$= dv.current().file.ctime`
 
 Änderungsdatum: `$= dv.current().file.mtime`
 
-Alle Dateien, die hier sichtbar sein sollen müssen `draft: false` in YAML sein!
+
 
 > [!NOTE]
 > 
@@ -37,7 +39,7 @@ WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "
 
 ```
 
-%%group by file.folder%%
+
 
 ```dataview
 TABLE without ID
@@ -51,17 +53,15 @@ WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "
 (Passwort OR password OR Zugangsdaten OR account OR login OR Benutzer OR Login) -file:index
 ```
 
-
-[[BBZ]]
-[[index]]
-
-
 ## Alle Dateien
 ```query
 -tag:none
 ```
 
+%%
 
+[[BBZ]]
+[[index]]
 [[Formatierungen]]
 
 ![[Sommer.png]]
