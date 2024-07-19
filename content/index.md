@@ -8,21 +8,18 @@ title: Testseite
 draft: false
 ---
 
-
-
 ## Dies ist die index.md
 
-> Alle Dateien, die hier sichtbar sein sollen müssen `draft: false` in YAML sein!
+> Alle Dateien, die hier sichtbar sein sollen müssen ==`draft: false`== in YAML sein!
 
-2024-07-19 12:38
+Von Hand gesetzt: 2024-07-19 12:38 Uhr
+
 %%
 `= this.file.mtime`
 
 Erstellungsdatum: `$= dv.current().file.ctime`
 
 Änderungsdatum: `$= dv.current().file.mtime`
-
-
 
 > [!NOTE]
 > 
@@ -38,8 +35,6 @@ WHERE row["draft"] != true
 WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "Passwort") OR contains(tags, "password"))
 
 ```
-
-
 
 ```dataview
 TABLE without ID
@@ -61,7 +56,9 @@ WHERE (contains(tags, "account") OR contains(tags, "privat") OR contains(tags, "
 %%
 
 [[BBZ]]
+
 [[index]]
+
 [[Formatierungen]]
 
 ![[Sommer.png]]
