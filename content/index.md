@@ -8,4 +8,4 @@ Here are my study notes! I thought they might be useful to share. This is defini
 I hope these notes prove helpful! 🍻
 
 # About Me
-Hi, I am Rashik. Currently a Ph.D. student in Computer Science. I love Robots.
+Hi, I am Rashik. Currently a Ph.D. student in Computer Science. I love Robots, basically to teach the dumb robots how to understand and interact in the 3D world. My research interest lies within Robotics, Spatial Intelligence, Vision-Language Models.
