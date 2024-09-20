@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: "none",
     locale: "de-DE",
-    baseUrl: "merlinuwe.github.io/my-notes",
+    baseUrl: "rashik.info.np/my-notes",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
