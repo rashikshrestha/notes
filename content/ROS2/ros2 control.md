@@ -122,7 +122,7 @@ List all available **types of controllers** by: `ros2 control list_controller_ty
 - It's just a convention. URLs (which is what they are, not really URLs) are a convenient and globally-familiar way of identifying resources.
 - reserved keywords in xacro ?
 ## Property and Argument
-- `xacro:property` is like const keyword | \#define
+- `xacro:property` is like const keyword | `#define`
 - `xacro:arg` is like variable | function parameter
 ## Macro
 - `xacro:macro` is like function
